@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "GPT Finished",
+    "version": "1.0",
+    "description": "Send notifications",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "webRequest", 
+        "storage",
+        "notifications"
+    ],
+    "host_permissions": ["*://*/*"]
+}
